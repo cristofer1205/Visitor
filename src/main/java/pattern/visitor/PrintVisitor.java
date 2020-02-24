@@ -4,7 +4,7 @@ import static java.lang.System.out;
 
 public class PrintVisitor implements Visitor {
 
-    private int level = 0;//livello di profondità per l'indentazione
+    private int level = 0;
 
     public void visit(Document document) {
         for (int i = 0; i < level; i++) {
